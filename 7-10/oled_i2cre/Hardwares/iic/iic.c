@@ -67,7 +67,5 @@ void IIC_END(void)
 {
     SDA_LOW;
     SCL_HIGH;
-    IIC_Delay();
     SDA_HIGH;
-    IIC_Delay();
 }
