@@ -1,12 +1,6 @@
 #include "iic.h"
 
-void IIC_Delay(void)
-{
-    for (int i = 0; i < 20; i++)
-    {
-        __NOP();
-    }
-}
+
 
 void IIC_INIT(void)
 {
@@ -30,9 +24,7 @@ void IIC_START(void)
 {
     SDA_HIGH;
     SCL_HIGH;
-    IIC_Delay();
     SDA_LOW;
-    IIC_Delay();
     SCL_LOW;
 }
 
@@ -60,15 +52,14 @@ void IIC_Send_Byte(uint8_t data)
         result >>= 7;
         SDA_Write(result);
         SCL_HIGH;
-        IIC_Delay();
         SCL_LOW;
-        IIC_Delay();
     }
+    // 释放 SDA
+    SDA_HIGH;
     // 应答位
     SCL_LOW;
     SCL_HIGH;
-    // 释放 SDA
-    SDA_HIGH;
+  
 }
 
 

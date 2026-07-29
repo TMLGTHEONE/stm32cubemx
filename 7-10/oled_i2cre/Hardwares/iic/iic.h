@@ -14,7 +14,6 @@
 #define SDA_HIGH HAL_GPIO_WritePin(IIC_SDA_PORT,IIC_SDA_PIN,1)
 #define SDA_LOW HAL_GPIO_WritePin(IIC_SDA_PORT,IIC_SDA_PIN,0)
 
-void IIC_Delay(void);
 void IIC_INIT(void);
 void IIC_START(void);
 void IIC_END(void);
