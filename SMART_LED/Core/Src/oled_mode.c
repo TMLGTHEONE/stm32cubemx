@@ -2,7 +2,7 @@
 #include "adc.h"
 #include "tim.h"
 
-/* 模式/电平存储 */
+/* Mode/level storage */
 uint8_t current_mode = 0;  /* 0 = manual 手动, 1 = auto 自动*/
 uint8_t manual_level = 0;  /* manual set level 手动设置*/
 uint8_t auto_level = 0;    /* auto-detected level 自动检测*/
