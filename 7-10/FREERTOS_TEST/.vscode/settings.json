@@ -1,0 +1,21 @@
+{
+  "editor.hover.enabled": "on",
+  "editor.parameterHints.enabled": true,
+  "editor.inlayHints.enabled": "on",
+  "editor.inlayHints.parameterNames.enabled": "all",
+  "editor.inlayHints.variableTypes.enabled": true,
+  "editor.inlayHints.propertyDeclarationTypes.enabled": true,
+  "editor.inlayHints.functionLikeReturnTypes.enabled": true,
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.gotoLocation.multipleDefinitions": "peek",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.autocomplete": "Default",
+  "C_Cpp.errorSquiggles": "Enabled",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.cStandard": "c11"
+}

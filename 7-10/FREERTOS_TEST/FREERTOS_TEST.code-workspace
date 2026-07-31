@@ -5,6 +5,7 @@
         }
     ],
     "settings": {
+        "terminal.integrated.shellIntegration.enabled": false,
         "clangd.arguments": [
             "--header-insertion=never"
         ],
@@ -28,7 +29,7 @@
             "editor.tabSize": 4,
             "editor.autoIndent": "advanced"
         },
-        "commentTranslate.source": "TranSmart"
+        "commentTranslate.source": "DarkCWK.youdao-youdao"
     },
     "extensions": {
         "recommendations": [
